@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/bg-hero\ 1.png), linear-gradient(rgba(15, 23, 43, 0.98),rgba(15, 23, 43, 0.98));
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-position: 0;
+    background-size: cover;
+    flex-direction: column;
+
+    
+}
+
+
+header{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2%;
+
+
+}
+
+header > img{
+   
+    width: 215px;
+    height: 50px;
+   
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav ul li{
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    font-size: 14px;
+
+    color: white;
+}
+
+
+nav ul li:hover{
+    color: #FEA116;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+}
+.container .left article{
+    width: 80%;
+    
+}
+.container .left article h1{
+    color: white;
+    font-size: 52px;
+}
+
+
+
+.container .left article p{
+    padding-top: 20px;
+    font-size: 16px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.container .left article button{
+    width: 150px;
+    height: 40px;
+    background-color: #FEA116    ;
+    border: none;
+    border-radius: 2px;
+    color: white;
+}
+
+.container .right img{
+    width: 300px;
+    height: 300px;
+}
+
+.btn{
+    width: 100px;
+    /* height: 40px; */
+    background-color: #FEA116    ;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    text-align: center;
+}
