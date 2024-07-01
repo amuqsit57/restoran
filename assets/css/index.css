@@ -115,3 +115,66 @@ nav ul li:hover{
     color: white;
     text-align: center;
 }
+
+.btn:hover{
+    color: white;
+}
+
+
+
+
+
+
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.details .detail{
+    /* width: 30%; */
+    /* height: 200px; */
+    font-family: "Poppins", sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center
+    ;
+    flex-direction: column;
+    margin: 10px;
+    padding: 20px;
+
+}
+
+.details .detail h1{
+    font-size:16px;
+    width: 80%;
+    padding: 10px;
+}
+
+.details .detail p{
+    width: 80%;
+    font-size:12px;
+    /* padding: 0 0 0 010px; */
+}
+.details .detail .detailImg{
+
+    width: 80%;
+    text-align: start;
+
+}
+
+
+.details .detail img{
+    /* background-color: red; */
+    width: 35px;
+    height: 35px;
+}
+
+
+.details #detail1{
+    background-color: #FEA116;
+}
