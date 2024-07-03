@@ -1,6 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Poppins", sans-serif;
+    
+
 
 }
 .main{
@@ -21,7 +24,7 @@
 
 
 header{
-    width: 70%;
+    width: 78%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -69,7 +72,7 @@ nav ul li:hover{
 }
 .container{
     display: flex;
-    width: 70%;
+    width: 78%;
     justify-content: space-around;
     align-items: center;
     height: 500px;
@@ -126,6 +129,7 @@ nav ul li:hover{
 
 
 .details{
+    /* width: 80%; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -137,6 +141,7 @@ nav ul li:hover{
 .details .detail{
     /* width: 30%; */
     /* height: 200px; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     font-family: "Poppins", sans-serif;
 
     display: flex;
@@ -178,3 +183,150 @@ nav ul li:hover{
 .details #detail1{
     background-color: #FEA116;
 }
+
+
+.aboutUs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* background-color: red; */
+    height: 400px;
+}
+
+
+.aboutUs{
+
+}
+
+.aboutUs img{
+    padding: 5px;
+}
+.aboutUs .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.aboutUs .left .bottom{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.aboutUs .left .up{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.aboutUs .smallImg{
+    width: 150px;
+    height: 150px;
+    
+}
+
+
+.aboutUs .bigImg{
+    width: 200px;
+    height: 200px;
+    
+}
+
+
+.aboutUs .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+
+}
+
+.aboutUs .right .aboutDetails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    /* background-color: palegreen; */
+}
+
+.aboutUs .right .aboutDetails h1{
+    font-size: 20px;
+    width: 100%;
+    text-align: start;
+    padding: 20px;
+
+}
+
+.aboutUs .right .aboutDetails h4 {
+    font-size: 40px;
+    text-align: start;
+    /* background-color: aquamarine; */
+    width: 100%;
+    padding: 10px;
+
+}
+
+.aboutUs .right .aboutDetails h4 img{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 5px;
+}
+
+
+.aboutUs .right .aboutDetails .aboutNumbersContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.aboutUs .right .aboutDetails .aboutNumbersContainer .aboutNumbers{
+    
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-left: 5px solid #FEA116;
+
+
+}
+
+
+.aboutUs .right .aboutDetails .aboutNumbersContainer .aboutNumbers h2{
+    font-size: 40px;
+    color: #FEA116;
+    position: relative;
+    left: -10%;
+    
+}
+
+
+
+.aboutUs .right .aboutDetails .aboutButton{
+    width: 100%;
+    text-align: start;
+
+}
+    
+
+.aboutUs .right .aboutDetails .aboutButton button{
+    /* width: 100%; */
+    width: 150px;
+    height: 50px;
+    background-color: #FEA116;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    
+
+
+}
+
+
+
