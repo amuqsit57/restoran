@@ -8,10 +8,10 @@
 }
 .main{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
-    height: 500px;
+    height: 700px;
     background-image: url(../images/bg-hero\ 1.png), linear-gradient(rgba(15, 23, 43, 0.98),rgba(15, 23, 43, 0.98));
     background-repeat: no-repeat;
     background-blend-mode: overlay;
@@ -139,8 +139,8 @@ nav ul li:hover{
     margin-bottom: 5%;
 }
 .details .detail{
-    /* width: 30%; */
-    /* height: 200px; */
+    width: 30%;
+    height: 200px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     font-family: "Poppins", sans-serif;
 
@@ -191,12 +191,15 @@ nav ul li:hover{
     align-items: center;
     width: 100%;
     /* background-color: red; */
-    height: 400px;
+    /* height: 400px; */
 }
 
 
 .aboutUs{
-
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .aboutUs img{
@@ -205,8 +208,10 @@ nav ul li:hover{
 .aboutUs .left{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
     flex-direction: column;
+    width: 50%;
+    /* background-color: red; */
 }
 .aboutUs .left .bottom{
     display: flex;
@@ -329,4 +334,344 @@ nav ul li:hover{
 }
 
 
+
+
+.foodMenu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.foodMenu > h1{
+    padding-top: 5%;
+}
+
+.foodMenu > h2{
+    padding-bottom: 2%;
+}
+
+.foodMenu .menuDetails{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foodMenu .menuDetails .menuDetail{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.foodMenu .menuDetails .menuDetail img{
+    width: 24px;
+    height: 24px;
+    margin: 10px;
+}
+.foodMenu .menuDetails .menuDetail .menuDetailPara{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    /* background-color: red; */
+
+}
+
+.foodMenu .menuDetails .menuDetail .menuDetailPara p{
+    font-size: 12px;
+
+}
+
+
+.foodMenu .menuDetails .menuDetail .menuDetailPara h1{
+    font-size: 14px;
+}
+
+.foodMenu .menuItemContainer{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+
+
+}
+
+.foodMenu .menuItemContainer  .menuItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 45%;
+    /* margin: 20px;/ */
+
+}
+.foodMenu .menuItemContainer  .menuItem .menuItemDetails{
+    display: flex;
+    /* width: 70%; */
+    /* background-color: red; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+.foodMenu .menuItemContainer  .menuItem .menuItemDetails .up{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    
+}
+
+.foodMenu .menuItemContainer  .menuItem .menuItemDetails .up h2{
+    font-size: 14px;
+
+}
+.foodMenu .menuItemContainer  .menuItem .menuItemDetails .up h3{
+    font-size: 14px;
+    color: #FEA116;
+}
+
+
+.foodMenu .menuItemContainer  .menuItem .menuItemDetails .down {
+    padding: 5px;
+}
+.foodMenu .menuItemContainer  .menuItem .menuItemDetails .down p{
+    font-size: 12px;
+
+}
+
+.foodMenu .menuItemContainer .menuItem img{
+    width: 66px;
+    height: 66px;
+
+    
+}
+
+
+.reservation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.reservation .left{
+    width: 50%;
+    /* height: 50%; */
+    height: 400px;
+    background-image: url(../images/couple-gf770e433f_1280\ 1.png);
+    background-size: cover;
+    background-color: red;
+
+}
+.reservation .right{
+    width: 50%;
+    height: 400px;
+    background-color: #0F172B;
+    /* padding-top: 5%; */
+}
+
+.reservation .right h1{
+    color: #FEA116;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.reservation .right h2{
+    color: white;
+    margin: 10px;
+}
+.reservation .right .reservationDetails{
+    width: 70%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    /* background-color: red; */
+
+}
+
+.reservation .right .reservationDetails input{
+    width: 40%;
+    margin: 10px;
+    height: 30px;
+    border: none;
+    padding: 10px;
+    
+}
+
+
+.reservation .right .reservationDetails button{
+    width: 100%;
+    height: 50px;
+    background-color: #FEA116;
+    color: white;
+    margin: 10px;
+    border: none;
+}
+
+
+#specialRequest{
+    width: 100%;
+    height: 60px;
+}
+
+
+.team{
+    width: 100%;
+    display: flex;
+    justify-content: center;align-items: center;
+    flex-direction: column;
+    padding-top: 10%;
+    /* padding-bottom: 10%; */
+
+}
+
+
+
+.team h1{
+    font-size: 16px;
+    color: #FEA116;
+    
+}
+.team .teamMembers{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.team .teamMembers .teamMember{
+    margin: 15px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  
+} 
+
+.team .teamMembers .teamMember img{
+    width: 200px;
+    height: 200px;
+}
+
+
+
+.testimonial{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10%;
+    padding-bottom:10%;
+
+
+}
+
+.testimonial h1{
+    padding: 20px;
+    color: #FEA116;
+    font-size: 16px;
+}
+
+.testimonial .testimonialCards{
+    width: 80%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.testimonial .testimonialCards .testimonialCard{
+    width: 30%;
+    margin: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
+}
+
+.testimonial .testimonialCards .testimonialCard .testimonialImg{
+    width: 100%;
+} 
+.testimonial .testimonialCards .testimonialCard .testimonialImg img{
+    width: 24px;
+    height: 24px;
+}
+
+
+
+.testimonial .testimonialCards .testimonialCard .testimonialDetails{
+    width: 100%;
+} 
+
+
+
+.testimonial .testimonialCards .testimonialCard .testimonialDetails img{
+    width: 34px;
+    height: 34px;
+    margin-right: 10px;
+} 
+
+
+.testimonial .testimonialCards .testimonialCard .testimonialDetails{
+    display: flex;
+    justify-content: start;
+
+    align-items: center;
+    margin: 10px;
+}
+
+.testimonial .testimonialCards .testimonialCard .testimonialDetails .testimonialDetail {
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+
+.footer{
+    width: 100%;
+    height: 60px;
+    background-color: #0F172B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p{
+    color: gray;
+    padding: 10px;
+}
+
+.footer .footerSec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+.footer .footerSec .footerNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 
