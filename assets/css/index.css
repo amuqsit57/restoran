@@ -210,7 +210,7 @@ align-items: center;
     justify-content: center;
     align-items: end;
     flex-direction: column;
-    width: 50%;
+    width: 30%;
     /* background-color: red; */
 }
 .aboutUs .left .bottom{
@@ -469,7 +469,7 @@ align-items: center;
 .reservation .left{
     width: 50%;
     /* height: 50%; */
-    height: 400px;
+    height: 600px;
     background-image: url(../images/couple-gf770e433f_1280\ 1.png);
     background-size: cover;
     background-color: red;
@@ -477,8 +477,13 @@ align-items: center;
 }
 .reservation .right{
     width: 50%;
-    height: 400px;
+    height: 600px;
     background-color: #0F172B;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+
     /* padding-top: 5%; */
 }
 
@@ -503,7 +508,7 @@ align-items: center;
 }
 
 .reservation .right .reservationDetails input{
-    width: 40%;
+    width: 39%;
     margin: 10px;
     height: 30px;
     border: none;
@@ -675,3 +680,268 @@ align-items: center;
 
 }
 
+.menuu{
+    display: none;
+}
+
+
+
+@media (min-width: 1500px) {
+    header{
+        width: 60%;
+    }
+    .container{
+       width: 60%;;
+    }
+
+    .container .left article h1{
+        font-size: 60px;
+
+    }
+    .container .right img{
+        width: 400px;
+        height: 400px;
+    }
+
+    .details{
+        /* width: 70%; */
+    }
+    .details .detail{
+        width:40% ;
+        height: 300px;
+
+    }
+
+    .details .detail h1{
+        font-size: 24px;
+    }
+    .details .detail p{
+        font-size: 20px;
+    }
+    .aboutUs{
+
+    }
+    .aboutUs .left{
+        width: 35%;
+    }
+
+    .aboutUs .left .smallImg{
+        width: 200px;
+        height: 200px;
+    }
+
+    .aboutUs .left .bigImg{
+        width: 300px;
+        height: 300px;
+    }
+    .aboutUs .right .aboutDetails h4{
+        font-size: 50px;
+
+    }
+
+    .aboutUs .right .aboutDetails p{
+        font-size: 24px;
+
+    }
+    
+
+        .aboutUs .right .aboutDetails .aboutNumbersContainer{
+        /* font-size: 30%; */
+    }
+
+    .aboutUs .right .aboutNumbersContainer .aboutNumbers h2{
+        font-size: 60px;
+    }
+
+    .foodMenu h2{
+        font-size: 50px;
+    }
+
+    .foodMenu .menuDetails  {
+        width: 50%;
+    }
+
+    .foodMenu .menuDetails .menuDetail img {
+        font-size: 24px;
+        width: 40px;
+        height: 40px;
+
+    }
+    .foodMenu .menuDetails .menuDetail .menuDetailPara p {
+        font-size: 24px;
+
+    }
+
+    .foodMenu .menuDetails .menuDetail .menuDetailPara h1 {
+        font-size: 30px;
+
+    }
+
+    .foodMenu .menuItemContainer .menuItem {
+        height: 150px;
+    }
+    .foodMenu .menuItemContainer .menuItem img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .foodMenu .menuItemContainer .menuItem .menuItemDetails .up h2{
+        font-size: 24px;
+    } 
+
+    .foodMenu .menuItemContainer .menuItem .menuItemDetails .up h3{
+        font-size: 24px;
+    } 
+
+    .foodMenu .menuItemContainer .menuItem .menuItemDetails .down p{
+        font-size: 16px;
+    } 
+
+    
+   }
+
+
+   @media (max-width: 1000px) {
+
+    nav ul{
+        display: none;
+    }
+    .menuu{
+        border: 2px solid #0F172B;
+        padding: 2px;
+        display: block;
+    }
+    .main{
+        height: 1200px;
+    }
+
+    .container{
+        /* margin-top: -200px; */
+        position: relative;
+        top: -10%;
+        flex-direction: column;
+    }
+    .container .left article{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container .left article h1{
+        width: 100%;
+        text-align: center;
+    }
+    .container .left article br{
+        display: none;
+    }
+    .container .right{
+        padding: 20px;
+    }
+
+    .details{
+        flex-direction: column;
+    }
+    .details .detail {
+        width: 70%;
+    }
+    .aboutUs{
+        flex-direction: column;
+    }
+    .aboutUs .left .smallImg{
+        width: 100px;
+        height: 100px;
+    }
+    .aboutUs .left .bigImg {
+        width: 200px;
+        height: 200px;
+    }
+    .aboutUs .right{
+        width: 80%;
+    } 
+    .aboutUs .right .aboutNumbersContainer{
+        flex-direction: column;
+    }
+    .foodMenu .menuDetails{
+        width: 80%;
+    }
+    .foodMenu .menuItemContainer{
+        flex-direction: column;
+    }
+    .foodMenu .menuItemContainer .menuItem{
+        width: 100%;
+    }
+
+
+
+    .reservation{
+        flex-direction: column;
+        width: 100%;
+    }
+    .reservation .left{
+        width: 100%;
+    }
+    .reservation .right {
+        width: 100%;
+    }
+
+    .team .teamMembers{
+        flex-direction: column;
+    }
+    .testimonial .testimonialCards{
+        flex-direction: column;
+    }
+    
+    .testimonial .testimonialCards .testimonialCard{
+        width: 80%;
+    }
+
+
+    .aboutUs .right .aboutDetails .aboutNumbersContainer{
+        flex-direction: column;
+    }
+
+    .aboutUs .right .aboutDetails .aboutNumbersContainer .aboutNumbers{
+        width: 100%;
+        margin: 10px;
+    }
+
+    .aboutUs .left{
+        justify-content: center;
+        align-items:center;
+        width: 50%;
+    }
+    header{
+        position: absolute;
+        top: 0;
+    }
+
+
+
+    .container p{
+        text-align: center;
+    }
+
+
+
+
+    .reservation .right{
+
+        justify-content: center;
+        align-items: center;
+    }
+    .reservation .right .reservationDetails{
+        justify-content: center;
+        align-items: center;text-align: center;
+    }
+    
+    .reservation .right .reservationDetails input{
+        width: 100%;
+    }
+
+
+    .team .teamMembers .teamMember {
+        width: 80%;
+    }
+   }
