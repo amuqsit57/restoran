@@ -6,6 +6,51 @@
 
 
 }
+
+
+/* font set */
+
+.aboutUs .aboutDetails h1, .foodMenu >h1,.reservation .right>h1,.team >h1,.testimonial>h1{
+    font-family: "Pacifico", cursive;
+    color: #FEA116;
+    font-size: 16px;
+    /* width: 100%; */
+    text-align: center;
+}
+
+span{
+    /* color: #FEA116; */
+    /* margin-top: -50px; */
+    position: relative;
+    top: -8px;
+    padding: 10px;
+    /* left: 5px; */
+    font-family: "Pacifico", cursive;
+    color: #FEA116;
+
+    /* border: 2px solid #FEA116; */
+}
+
+.navMobile{
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: #0F172B; */
+    color: white;
+}
+
+
+
+.hidden{
+    display: none;
+}
+
+
 .main{
     display: flex;
     justify-content: space-around;
@@ -571,13 +616,31 @@ align-items: center;
   
 } 
 
-.team .teamMembers .teamMember img{
+.team .teamMembers .teamMember> img{
     width: 200px;
     height: 200px;
 }
 
+.team .teamMembers .teamMember .teamMenu{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 30px;
+}
 
 
+.team .teamMembers .teamMember .teamMenu>img{
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+}
+
+
+.team .teamMembers .teamMember:hover .teamMenu{
+    display: flex;
+    /* transition: 0.5s; */
+}
 .testimonial{
     width: 100%;
     display: flex;
@@ -684,11 +747,32 @@ align-items: center;
     display: none;
 }
 
+.foodMenu .menuDetails .menuDetail:hover{
+    border-bottom: 2px solid #FEA116;
+    transition: 0.1s;
+}
+
+.main .container .right >img{
+    animation: imgRotate 10.5s linear  infinite;
+}
 
 
+@keyframes imgRotate {
+
+
+    0%{
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+
+    }
+    
+}
 @media (min-width: 1500px) {
     header{
-        width: 60%;
+        width: 70%;
     }
     .container{
        width: 60%;;
@@ -803,6 +887,7 @@ align-items: center;
 
    @media (max-width: 1000px) {
 
+    
     nav ul{
         display: none;
     }

@@ -8,6 +8,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 </head>
 <body>
     
@@ -16,10 +20,15 @@
         <header>
             <img src="../assets/images/Screenshot_2024-05-28_181255-removebg-preview 1.png" alt="">
             <nav>
-                <div class="menuu">
+                <div class="menuu" id="menuButton">
                     <img src="../assets/images/menu (3).png" alt="">
                 </div>
-                <ul>
+                <ul class="navMobile hidden " id="navMobile">
+                    <li>Home</li>
+                    <li>Contact</li>
+                    <li class="btn" >Book A Table</li>
+                </ul>
+                <ul >
                     <li>Home</li>
                     <li>Contact</li>
                     <li class="btn" >Book A Table</li>
@@ -56,7 +65,7 @@
 
         <div class="detail" id="detail1">
             <div class="detailImg">
-                <img src="../assets/images/Symbol.png" alt="">
+                <img src="../assets/images/Symbolss.png" alt="">
             
             </div>
             <h1>Master Chefs</h1>
@@ -111,7 +120,7 @@
 
         <div class="right">
             <div class="aboutDetails">
-                <h1>aboutUs_____</h1>
+                <h1>aboutUs <span>______</span></h1>
                 <h4>Welcome to <img src="../assets/images/Symbol-1.png" alt="">  Restoran</h4>
                 <div class="aboutParagraph">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem sed modi ratione similique quisquam voluptatibus qui vitae, ipsum est itaque.</p>
@@ -152,7 +161,7 @@
 
     <section class="foodMenu">
 
-        <h1><span>_______</span>Food Menu<span>_____</span></h1>
+        <h1><span>_____</span>Food Menu<span>_____</span></h1>
         <h2>Most Popular Items</h2>
         <div class="menuDetails">
 
@@ -279,7 +288,7 @@
         <div class="left">
         </div>
         <div class="right">
-            <h1>reservation <span>__________</span></h1>
+            <h1>reservation <span>_____</span></h1>
             <h2>Book A Table Online</h2>
             <div class="reservationDetails">
                 <input type="text" placeholder="Enter Name">
@@ -293,7 +302,7 @@
     </section>
 
     <section class="team">
-        <h1>Team members</h1>
+        <h1><span>_____</span>Team members<span>_____</span></h1>
         <h2>Our Master Chefs</h2>
 
         <div class="teamMembers">
@@ -301,24 +310,48 @@
                 <img src="../assets/images/Container.png" alt="">
                 <h3>Full Name</h3>
                 <p>Designation</p>
+
+                <div class="teamMenu">
+                    <img src="../assets/images/Group 10121930.png" alt="">
+                    <img src="../assets/images/Group 10121931.png" alt="">
+                    <img src="../assets/images/Rectangle 10029.png" alt="">
+                </div>
             </div>
 
             <div class="teamMember">
                 <img src="../assets/images/Container.png" alt="">
                 <h3>Full Name</h3>
                 <p>Designation</p>
+
+                <div class="teamMenu">
+                    <img src="../assets/images/Group 10121930.png" alt="">
+                    <img src="../assets/images/Group 10121931.png" alt="">
+                    <img src="../assets/images/Rectangle 10029.png" alt="">
+                </div>
             </div>
 
             <div class="teamMember">
                 <img src="../assets/images/Container.png" alt="">
                 <h3>Full Name</h3>
                 <p>Designation</p>
+
+                <div class="teamMenu">
+                    <img src="../assets/images/Group 10121930.png" alt="">
+                    <img src="../assets/images/Group 10121931.png" alt="">
+                    <img src="../assets/images/Rectangle 10029.png" alt="">
+                </div>
             </div>
 
             <div class="teamMember">
                 <img src="../assets/images/Container.png" alt="">
                 <h3>Full Name</h3>
                 <p>Designation</p>
+
+                <div class="teamMenu">
+                    <img src="../assets/images/Group 10121930.png" alt="">
+                    <img src="../assets/images/Group 10121931.png" alt="">
+                    <img src="../assets/images/Rectangle 10029.png" alt="">
+                </div>
             </div>
         </div>
 
@@ -326,7 +359,7 @@
 
     <section class="testimonial">
 
-        <h1>Testimonial</h1>
+        <h1><span>_____</span>Testimonial<span>_____</span></h1>
         <h2>Our Clients Say!!!</h2>
 
         <div class="testimonialCards">
@@ -392,6 +425,17 @@
         </div>
         
     </section>
+
+
+
+    <script>
+
+        document.getElementById("menuButton").addEventListener("click",function(){
+            
+
+            document.getElementById("navMobile").classList.toggle("hidden");
+        })
+    </script>
 </body>
 
 </html>
